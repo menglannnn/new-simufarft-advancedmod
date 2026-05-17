@@ -7,13 +7,11 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.ListTag;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.event.entity.player.PlayerEvent;
-import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
@@ -23,33 +21,6 @@ import java.util.UUID;
 public class NPCLoveHandler {
 
     private static final String DATA_KEY = "NPCLoveData";
-
-    /**
-     * 处理玩家右键点击NPC事件
-     */
-    @SubscribeEvent
-    public static void onEntityInteract(PlayerInteractEvent.EntityInteract event) {
-        if (event.getHand() != InteractionHand.MAIN_HAND) {
-            return;
-        }
-
-        Player player = event.getEntity();
-        Entity target = event.getTarget();
-
-        // 潜行交互交还给原版或其他模组处理，避免附属对话抢占 Shift 右键。
-        if (player.isSecondaryUseActive()) {
-            return;
-        }
-
-        // 检查是否是NPC（优先使用新模拟大都市的集成）
-        if (isSupportedNpc(target)) {
-            event.setCanceled(true);
-
-            if (player.level().isClientSide) {
-                openInteractScreenForClient(player, target);
-            }
-        }
-    }
 
     /**
      * 判断实体是否是新模拟大都市的NPC

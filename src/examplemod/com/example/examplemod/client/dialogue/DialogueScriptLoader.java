@@ -342,6 +342,7 @@ public final class DialogueScriptLoader {
         return currentScope;
     }
 
+    @SuppressWarnings("unused")
     private static DialogueScript.Scope defineAllNpc(DialogueScript.Scope currentScope, HeaderState headerState, String value) {
         headerState.allNpcDefined = true;
         return new DialogueScript.Scope(parseBoolean(value), currentScope.npcName(), currentScope.npcUuid(), currentScope.npcJob());
