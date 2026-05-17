@@ -1,0 +1,34 @@
+{
+  "parent": "simukraft:story/build_box",
+  "display": {
+    "icon": {
+      "item": "simukraft:nsuk_farmland_box"
+    },
+    "title": {
+      "translate": "advancement.simukraft.farmland_box.title"
+    },
+    "description": {
+      "translate": "advancement.simukraft.farmland_box.description"
+    },
+    "x": 2.0,
+    "y": 1.0,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_farmland_box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "simukraft:nsuk_farmland_box"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

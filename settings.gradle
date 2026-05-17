@@ -1,0 +1,24 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven {
+            name = 'MinecraftForge'
+            url = 'https://maven.minecraftforge.net/'
+        }
+        maven {
+            name = 'Sponge'
+            url = 'https://repo.spongepowered.org/repository/maven-public/'
+        }
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.7.0'
+}
+
+// ── 多项目联调：仅在本地存在 CityChat 工程时才纳入，避免缺失时阻断 Gradle 同步和运行 ──
+def cityChatProjectDir = file('../NSim-CityChat')
+if (cityChatProjectDir.exists() && cityChatProjectDir.isDirectory()) {
+    include ':citychat'
+    project(':citychat').projectDir = cityChatProjectDir
+}

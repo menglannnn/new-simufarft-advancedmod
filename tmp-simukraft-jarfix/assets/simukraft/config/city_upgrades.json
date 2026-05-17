@@ -1,0 +1,208 @@
+{
+  "upgrades": [
+    {
+      "level": 0,
+      "name": "拓荒者",
+      "description": "第一行脚印陷进无名的土地，后来这里叫做'开始'。",
+      "requirements": {
+        "population": 0,
+        "wood": 0,
+        "cobblestone": 0,
+        "iron_ingot": 0,
+        "gold_ingot": 0,
+        "diamond": 0,
+        "lapis_lazuli": 0,
+        "funds": 0.0
+      },
+      "upgrade_type": "auto",
+      "unlocks": ""
+    },
+    {
+      "level": 1,
+      "name": "部落",
+      "description": "语言在篝火中诞生，我们给万物起名，用血缘捆成绳结。",
+      "requirements": {
+        "population": 3,
+        "wood": 0,
+        "cobblestone": 0,
+        "iron_ingot": 0,
+        "gold_ingot": 0,
+        "diamond": 0,
+        "lapis_lazuli": 0,
+        "funds": 0.0
+      },
+      "upgrade_type": "manual",
+      "unlocks": ""
+    },
+    {
+      "level": 2,
+      "name": "村落",
+      "description": "春种秋藏的秩序里，生出比血缘更深的牵绊——邻居。",
+      "requirements": {
+        "population": 4,
+        "wood": 8,
+        "cobblestone": 8,
+        "iron_ingot": 0,
+        "gold_ingot": 0,
+        "diamond": 0,
+        "lapis_lazuli": 0,
+        "funds": 5.0
+      },
+      "upgrade_type": "manual",
+      "unlocks": "解锁区块购买，并增加创建城市给予的区块周围一圈范围内未被占有的区块购买权"
+    },
+    {
+      "level": 3,
+      "name": "城镇",
+      "description": "道路开始计较宽度，陌生人与货物在码头上交换远方。",
+      "requirements": {
+        "population": 5,
+        "wood": 16,
+        "cobblestone": 16,
+        "iron_ingot": 0,
+        "gold_ingot": 0,
+        "diamond": 0,
+        "lapis_lazuli": 0,
+        "funds": 10.0
+      },
+      "upgrade_type": "manual",
+      "unlocks": "解锁区块购买，在已解锁的地块继续解锁一圈未被占有的区块"
+    },
+    {
+      "level": 4,
+      "name": "城市",
+      "description": "时间被钟声切成等份，有人造屋，有人造梦，有人造律法。",
+      "requirements": {
+        "population": 8,
+        "wood": 32,
+        "cobblestone": 32,
+        "iron_ingot": 0,
+        "gold_ingot": 0,
+        "diamond": 0,
+        "lapis_lazuli": 0,
+        "funds": 15.0
+      },
+      "upgrade_type": "manual",
+      "unlocks": "解锁区块购买，在已解锁的地块继续解锁一圈未被占有的区块"
+    },
+    {
+      "level": 5,
+      "name": "城池",
+      "description": "城墙内外的世界开始对峙，而文书跑得比马蹄更远。",
+      "requirements": {
+        "population": 10,
+        "wood": 64,
+        "cobblestone": 64,
+        "iron_ingot": 3,
+        "gold_ingot": 0,
+        "diamond": 0,
+        "lapis_lazuli": 0,
+        "funds": 20.0
+      },
+      "upgrade_type": "manual",
+      "unlocks": "解锁区块购买，在已解锁的地块继续解锁一圈未被占有的区块"
+    },
+    {
+      "level": 6,
+      "name": "都会",
+      "description": "蒸汽与电改写昼夜，旧神像在新大厦的阴影里剥落。",
+      "requirements": {
+        "population": 15,
+        "wood": 128,
+        "cobblestone": 128,
+        "iron_ingot": 6,
+        "gold_ingot": 0,
+        "diamond": 0,
+        "lapis_lazuli": 0,
+        "funds": 30.0
+      },
+      "upgrade_type": "manual",
+      "unlocks": "解锁区块购买，在已解锁的地块继续解锁一圈未被占有的区块"
+    },
+    {
+      "level": 7,
+      "name": "重镇",
+      "description": "血管长成骨骼，每一次脉动都让远方随之震颤。",
+      "requirements": {
+        "population": 20,
+        "wood": 256,
+        "cobblestone": 256,
+        "iron_ingot": 12,
+        "gold_ingot": 10,
+        "diamond": 0,
+        "lapis_lazuli": 0,
+        "funds": 60.0
+      },
+      "upgrade_type": "manual",
+      "unlocks": "解锁区块购买，在已解锁的地块继续解锁一圈未被占有的区块"
+    },
+    {
+      "level": 8,
+      "name": "中心城",
+      "description": "图纸决定山的去留，灯火彻夜不眠，浇筑新的星空。",
+      "requirements": {
+        "population": 25,
+        "wood": 512,
+        "cobblestone": 128,
+        "iron_ingot": 24,
+        "gold_ingot": 20,
+        "diamond": 3,
+        "lapis_lazuli": 0,
+        "funds": 80.0
+      },
+      "upgrade_type": "manual",
+      "unlocks": "解锁区块购买，在已解锁的地块继续解锁一圈未被占有的区块"
+    },
+    {
+      "level": 9,
+      "name": "枢纽城",
+      "description": "信息在海底奔跑，货物在空中飞行，我们搬运世界本身。",
+      "requirements": {
+        "population": 30,
+        "wood": 512,
+        "cobblestone": 256,
+        "iron_ingot": 48,
+        "gold_ingot": 40,
+        "diamond": 6,
+        "lapis_lazuli": 28,
+        "funds": 90.0
+      },
+      "upgrade_type": "manual",
+      "unlocks": "解锁区块购买，在已解锁的地块继续解锁一圈未被占有的区块"
+    },
+    {
+      "level": 10,
+      "name": "大都市",
+      "description": "这里产生的无形刻度，丈量着半个地球的明天。",
+      "requirements": {
+        "population": 35,
+        "wood": 512,
+        "cobblestone": 256,
+        "iron_ingot": 64,
+        "gold_ingot": 64,
+        "diamond": 12,
+        "lapis_lazuli": 32,
+        "funds": 100.0
+      },
+      "upgrade_type": "manual",
+      "unlocks": "解锁区块购买，在已解锁的地块继续解锁一圈未被占有的区块"
+    },
+    {
+      "level": 11,
+      "name": "不夜都",
+      "description": "当人造星群淹没银河，它醒着，成为所有时区的首都。",
+      "requirements": {
+        "population": 40,
+        "wood": 512,
+        "cobblestone": 256,
+        "iron_ingot": 128,
+        "gold_ingot": 64,
+        "diamond": 12,
+        "lapis_lazuli": 64,
+        "funds": 120.0
+      },
+      "upgrade_type": "manual",
+      "unlocks": "解锁所有未被占用区块的购买权"
+    }
+  ]
+}

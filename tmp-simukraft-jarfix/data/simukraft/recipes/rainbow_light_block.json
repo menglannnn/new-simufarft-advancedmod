@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WRB",
+    "YTP",
+    "OGW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "B": {
+      "item": "minecraft:blue_wool"
+    },
+    "Y": {
+      "item": "minecraft:yellow_wool"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    },
+    "P": {
+      "item": "minecraft:purple_wool"
+    },
+    "O": {
+      "item": "minecraft:orange_wool"
+    },
+    "G": {
+      "item": "minecraft:green_wool"
+    }
+  },
+  "result": {
+    "item": "simukraft:rainbow_light_block",
+    "count": 8
+  }
+}

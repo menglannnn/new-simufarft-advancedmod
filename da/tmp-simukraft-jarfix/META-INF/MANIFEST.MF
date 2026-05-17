@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Specification-Title: simukraft
+Specification-Vendor: NSUK Development Team
+Specification-Version: 1
+Implementation-Title: NewSim_U_Kraft-1.20.1重构-340dc739b5c6861bc98551
+ 2b59e1c90e36badc06
+Implementation-Version: 1.0.5c3
+Implementation-Vendor: NSUK Development Team
+Implementation-Timestamp: 2026-05-07T02:53:14+0800
+MixinConfigs: simukraft.mixins.json
+

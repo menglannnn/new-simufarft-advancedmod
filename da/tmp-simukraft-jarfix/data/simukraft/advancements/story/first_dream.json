@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "simukraft:build_box"
+    },
+    "title": {
+      "translate": "advancement.simukraft.first_dream.title"
+    },
+    "description": {
+      "translate": "advancement.simukraft.first_dream.description"
+    },
+    "x": 0.0,
+    "y": 0.0,
+    "background": "minecraft:textures/block/stone.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "first_join": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

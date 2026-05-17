@@ -1,0 +1,21 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "simukraft:debug_void",
+      "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+          "layers": [
+            {
+              "block": "minecraft:air",
+              "height": 1
+            }
+          ],
+          "lakes": false,
+          "features": false,
+          "biome": "minecraft:the_void"
+        }
+      }
+    }
+  }
+}

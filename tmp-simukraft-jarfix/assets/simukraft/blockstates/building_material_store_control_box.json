@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "simukraft:block/building_material_store_control_box"
+    }
+  }
+}

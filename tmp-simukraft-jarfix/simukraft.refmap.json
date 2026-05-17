@@ -1,0 +1,78 @@
+{
+  "mappings": {
+    "com/xiaoliang/simukraft/mixin/MixinAbstractContainerScreen": {
+      "tick": "Lnet/minecraft/client/gui/screens/inventory/AbstractContainerScreen;m_86600_()V",
+      "renderSlot": "Lnet/minecraft/client/gui/screens/inventory/AbstractContainerScreen;m_280092_(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/world/inventory/Slot;)V"
+    },
+    "com/xiaoliang/simukraft/mixin/ldlib/MixinModularUIGuiContainer": {
+      "Lnet/minecraft/world/entity/player/Player;getInventory()Lnet/minecraft/world/entity/player/Inventory;": "Lnet/minecraft/world/entity/player/Player;m_150109_()Lnet/minecraft/world/entity/player/Inventory;"
+    },
+    "com/xiaoliang/simukraft/mixin/MixinWorldCreationUiState": {
+      "setBonusChest": "Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState;m_267666_(Z)V",
+      "setWorldType": "Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState;m_267576_(Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$WorldTypeEntry;)V",
+      "setAllowCheats": "Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState;m_267601_(Z)V",
+      "setGameMode": "Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState;m_267616_(Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$SelectedGameMode;)V",
+      "updatePresetLists": "Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState;m_267608_()V"
+    },
+    "com/xiaoliang/simukraft/mixin/MixinMouseHandler": {
+      "grabMouse()V": "Lnet/minecraft/client/MouseHandler;m_91601_()V",
+      "releaseMouse()V": "Lnet/minecraft/client/MouseHandler;m_91602_()V",
+      "turnPlayer": "Lnet/minecraft/client/MouseHandler;m_91523_()V",
+      "onMove": "Lnet/minecraft/client/MouseHandler;m_91561_(JDD)V"
+    },
+    "com/xiaoliang/simukraft/mixin/MixinBlockRenderDispatcher": {
+      "renderSingleBlock": "Lnet/minecraft/client/renderer/block/BlockRenderDispatcher;m_110912_(Lnet/minecraft/world/level/block/state/BlockState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V"
+    },
+    "com/xiaoliang/simukraft/mixin/MixinKeyboardHandler": {
+      "keyPress": "Lnet/minecraft/client/KeyboardHandler;m_90893_(JIIII)V"
+    },
+    "com/xiaoliang/simukraft/mixin/MixinEntity": {
+      "getEyePosition(F)Lnet/minecraft/world/phys/Vec3;": "Lnet/minecraft/world/entity/Entity;m_20299_(F)Lnet/minecraft/world/phys/Vec3;"
+    },
+    "com/xiaoliang/simukraft/mixin/MixinScreen": {
+      "repositionElements": "Lnet/minecraft/client/gui/screens/Screen;m_267719_()V"
+    },
+    "com/xiaoliang/simukraft/mixin/MixinCamera": {
+      "setup": "Lnet/minecraft/client/Camera;m_90575_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/entity/Entity;ZZF)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/xiaoliang/simukraft/mixin/MixinAbstractContainerScreen": {
+        "tick": "Lnet/minecraft/client/gui/screens/inventory/AbstractContainerScreen;m_86600_()V",
+        "renderSlot": "Lnet/minecraft/client/gui/screens/inventory/AbstractContainerScreen;m_280092_(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/world/inventory/Slot;)V"
+      },
+      "com/xiaoliang/simukraft/mixin/ldlib/MixinModularUIGuiContainer": {
+        "Lnet/minecraft/world/entity/player/Player;getInventory()Lnet/minecraft/world/entity/player/Inventory;": "Lnet/minecraft/world/entity/player/Player;m_150109_()Lnet/minecraft/world/entity/player/Inventory;"
+      },
+      "com/xiaoliang/simukraft/mixin/MixinWorldCreationUiState": {
+        "setBonusChest": "Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState;m_267666_(Z)V",
+        "setWorldType": "Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState;m_267576_(Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$WorldTypeEntry;)V",
+        "setAllowCheats": "Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState;m_267601_(Z)V",
+        "setGameMode": "Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState;m_267616_(Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$SelectedGameMode;)V",
+        "updatePresetLists": "Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState;m_267608_()V"
+      },
+      "com/xiaoliang/simukraft/mixin/MixinMouseHandler": {
+        "grabMouse()V": "Lnet/minecraft/client/MouseHandler;m_91601_()V",
+        "releaseMouse()V": "Lnet/minecraft/client/MouseHandler;m_91602_()V",
+        "turnPlayer": "Lnet/minecraft/client/MouseHandler;m_91523_()V",
+        "onMove": "Lnet/minecraft/client/MouseHandler;m_91561_(JDD)V"
+      },
+      "com/xiaoliang/simukraft/mixin/MixinBlockRenderDispatcher": {
+        "renderSingleBlock": "Lnet/minecraft/client/renderer/block/BlockRenderDispatcher;m_110912_(Lnet/minecraft/world/level/block/state/BlockState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V"
+      },
+      "com/xiaoliang/simukraft/mixin/MixinKeyboardHandler": {
+        "keyPress": "Lnet/minecraft/client/KeyboardHandler;m_90893_(JIIII)V"
+      },
+      "com/xiaoliang/simukraft/mixin/MixinEntity": {
+        "getEyePosition(F)Lnet/minecraft/world/phys/Vec3;": "Lnet/minecraft/world/entity/Entity;m_20299_(F)Lnet/minecraft/world/phys/Vec3;"
+      },
+      "com/xiaoliang/simukraft/mixin/MixinScreen": {
+        "repositionElements": "Lnet/minecraft/client/gui/screens/Screen;m_267719_()V"
+      },
+      "com/xiaoliang/simukraft/mixin/MixinCamera": {
+        "setup": "Lnet/minecraft/client/Camera;m_90575_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/entity/Entity;ZZF)V"
+      }
+    }
+  }
+}

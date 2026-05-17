@@ -1,0 +1,34 @@
+{
+  "parent": "simukraft:story/logistics_server",
+  "display": {
+    "icon": {
+      "item": "simukraft:logistics_client_box"
+    },
+    "title": {
+      "translate": "advancement.simukraft.logistics_client.title"
+    },
+    "description": {
+      "translate": "advancement.simukraft.logistics_client.description"
+    },
+    "x": 2.0,
+    "y": 1.0,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_logistics_client": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "simukraft:logistics_client_box"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

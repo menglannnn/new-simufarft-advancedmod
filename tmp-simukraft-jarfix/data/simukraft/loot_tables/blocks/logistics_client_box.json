@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "simukraft:logistics_client_box"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

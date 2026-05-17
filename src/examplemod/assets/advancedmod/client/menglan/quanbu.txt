@@ -1,0 +1,29 @@
+npcname:
+npcuuid: 
+npcjob: 奶酪场工人
+
+
+
+npc-->有什么问题吗?;
+me--> 1={今天天气怎么样?+1好感};<+1>
+      2={你喜欢这里吗?-1好感};<-1>
+      3={文字弹出效果测试123};
+      4={给予测试};
+      [1](1)={好感度1测试};
+      [5](2)={好感度5测试};
+npc {player(1)-->天气挺好的今天
+      player(2)-->喜欢死了
+      player(3)-->啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊abcd
+      player(4)-->{错误示范("give player apple 1")
+                   错误示范->("give player apple 1")<-
+                   正确示范 ->("give player apple 1")<-
+                   好了
+                  }
+      playerlove(1)--> 好感等级1
+      playerlove(2)--> 好感等级5
+    }
+
+//仔细看看,瞎搞搞坏了我可不帮你
+// npcname:abc 表示仅名字为 abc 的 NPC 使用这段对话。
+// npcuuid:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx 表示仅指定 UUID 的 NPC 使用。
+//npcjob:奶酪场工人 表示仅指定职业的奶酪场工人NPC才能使用；留空表示无效

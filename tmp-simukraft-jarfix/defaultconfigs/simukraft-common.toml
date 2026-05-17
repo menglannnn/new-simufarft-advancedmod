@@ -1,0 +1,119 @@
+
+[general]
+	#是否启用方块黑名单保护
+	#禁用后规划师和建筑师将可以处理所有方块
+	enableBlacklistProtection = true
+	#是否在日志中记录被跳过的黑名单方块
+	logSkippedBlocks = true
+	#是否启用调试日志（会输出更多详细信息）
+	enableDebugLog = false
+	#是否启用创造模式
+	#开启后建筑师建造不需要材料和金钱
+	#与专家模式互斥，同时开启时创造模式优先
+	enableCreativeMode = false
+	#是否启用专家模式
+	#专家模式下建筑师需要所有材料（除了跳过列表中的）
+	#普通模式下使用基础材料列表和通类匹配组
+	enableExpertMode = false
+
+[npc_leveling]
+	#NPC最高等级（影响所有职业的速度上限）
+	#Range: 1 ~ 20
+	maxLevel = 20
+
+[materials]
+	#普通模式下是否启用材料通类匹配
+	#启用后可以使用通类匹配组中的任意材料替代
+	enableMaterialCategoryMatching = true
+	#普通模式 - 基础材料列表
+	#建筑师建造时需要的单个材料
+	#格式: modid:item_name
+	basicMaterials = ["minecraft:iron_block", "minecraft:gold_block", "minecraft:diamond_block", "minecraft:emerald_block", "minecraft:copper_block", "minecraft:netherite_block", "minecraft:lapis_block", "minecraft:redstone_block", "minecraft:coal_block", "minecraft:bamboo_block"]
+	#普通模式 - 通类匹配组配置
+	#格式: 组名|组头|组员
+	#匹配材料: 用于匹配建筑图纸中的材料（可以是单个材料或标签，可以为空）
+	#输入材料: 玩家可以使用的替代材料列表
+	#如果匹配材料为空（||），则输入材料列表中的任何材料都可以互相替代
+	#例如: oak_wood|minecraft:oak_planks|minecraft:oak_stairs,minecraft:oak_slab,minecraft:oak_planks
+	#例如: concrete||minecraft:white_concrete,minecraft:orange_concrete,... (所有混凝土可以互相替代)
+	materialCategoryGroups = ["bamboo_block|minecraft:bamboo_planks|minecraft:bamboo_slab,minecraft:bamboo_stairs,minecraft:bamboo_planks", "bamboo_fence||minecraft:bamboo_fence,minecraft:bamboo_fence_gate", "black_stone_family|minecraft:blackstone,minecraft:chiseled_polished_blackstone,minecraft:cracked_polished_blackstone_bricks,minecraft:polished_blackstone,minecraft:polished_blackstone_bricks|minecraft:blackstone,minecraft:blackstone_slab,minecraft:blackstone_stairs,minecraft:blackstone_wall,minecraft:chiseled_polished_blackstone,minecraft:cracked_polished_blackstone_bricks,minecraft:polished_blackstone,minecraft:polished_blackstone_brick_slab,minecraft:polished_blackstone_brick_stairs,minecraft:polished_blackstone_brick_wall,minecraft:polished_blackstone_bricks,minecraft:polished_blackstone_slab,minecraft:polished_blackstone_wall,minecraft:polished_blackstone_stairs", "bricks|minecraft:bricks|minecraft:bricks,minecraft:brick_slab,minecraft:brick_stairs,minecraft:brick_wall", "cobblestone_family|minecraft:cobblestone,minecraft:mossy_cobblestone|minecraft:cobblestone,minecraft:cobblestone_slab,minecraft:cobblestone_stairs,minecraft:cobblestone_wall,minecraft:mossy_cobblestone,minecraft:mossy_cobblestone_slab,minecraft:mossy_cobblestone_stairs,minecraft:mossy_cobblestone_wall", "concrete||minecraft:white_concrete,minecraft:orange_concrete,minecraft:magenta_concrete,minecraft:light_blue_concrete,minecraft:yellow_concrete,minecraft:lime_concrete,minecraft:pink_concrete,minecraft:gray_concrete,minecraft:light_gray_concrete,minecraft:cyan_concrete,minecraft:purple_concrete,minecraft:blue_concrete,minecraft:brown_concrete,minecraft:green_concrete,minecraft:red_concrete,minecraft:black_concrete", "concrete_powder||minecraft:black_concrete_powder,minecraft:blue_concrete_powder,minecraft:brown_concrete_powder,minecraft:white_concrete_powder,minecraft:orange_concrete_powder,minecraft:magenta_concrete_powder,minecraft:light_blue_concrete_powder,minecraft:yellow_concrete_powder,minecraft:lime_concrete_powder,minecraft:pink_concrete_powder,minecraft:gray_concrete_powder,minecraft:light_gray_concrete_powder,minecraft:cyan_concrete_powder,minecraft:purple_concrete_powder,minecraft:green_concrete_powder,minecraft:red_concrete_powder", "deepslate_family|minecraft:deepslate,minecraft:cobbled_deepslate,minecraft:polished_deepslate,minecraft:deepslate_bricks,minecraft:deepslate_tiles,minecraft:chiseled_deepslate,minecraft:cracked_deepslate_bricks,minecraft:cracked_deepslate_tiles|minecraft:cobbled_deepslate_slab,minecraft:cobbled_deepslate_stairs,minecraft:cobbled_deepslate_wall,minecraft:polished_deepslate_slab,minecraft:polished_deepslate_stairs,minecraft:polished_deepslate_wall,minecraft:deepslate_brick_slab,minecraft:deepslate_brick_stairs,minecraft:deepslate_brick_wall,minecraft:deepslate_tile_slab,minecraft:deepslate_tile_stairs,minecraft:deepslate_tile_wall,minecraft:deepslate,minecraft:cobbled_deepslate,minecraft:polished_deepslate,minecraft:deepslate_bricks,minecraft:deepslate_tiles,minecraft:chiseled_deepslate,minecraft:cracked_deepslate_bricks,minecraft:cracked_deepslate_tiles", "fence_family||minecraft:acacia_fence,minecraft:birch_fence,minecraft:cherry_fence,minecraft:acacia_fence_gate,minecraft:birch_fence_gate,minecraft:cherry_fence_gate,minecraft:oak_fence,minecraft:oak_fence_gate,minecraft:spruce_fence,minecraft:spruce_fence_gate,minecraft:jungle_fence,minecraft:jungle_fence_gate,minecraft:mangrove_fence,minecraft:mangrove_fence_gate,minecraft:crimson_fence,minecraft:crimson_fence_gate,minecraft:warped_fence,minecraft:warped_fence_gate", "glass_family|minecraft:black_stained_glass,minecraft:blue_stained_glass,minecraft:brown_stained_glass,minecraft:cyan_stained_glass,minecraft:white_stained_glass,minecraft:orange_stained_glass,minecraft:magenta_stained_glass,minecraft:light_blue_stained_glass,minecraft:yellow_stained_glass,minecraft:lime_stained_glass,minecraft:pink_stained_glass,minecraft:gray_stained_glass,minecraft:light_gray_stained_glass,minecraft:purple_stained_glass,minecraft:green_stained_glass,minecraft:red_stained_glass,minecraft:glass|minecraft:glass,minecraft:black_stained_glass,minecraft:black_stained_glass_pane,minecraft:blue_stained_glass,minecraft:blue_stained_glass_pane,minecraft:brown_stained_glass,minecraft:brown_stained_glass_pane,minecraft:cyan_stained_glass,minecraft:cyan_stained_glass_pane,minecraft:white_stained_glass,minecraft:white_stained_glass_pane,minecraft:orange_stained_glass,minecraft:orange_stained_glass_pane,minecraft:magenta_stained_glass,minecraft:magenta_stained_glass_pane,minecraft:light_blue_stained_glass,minecraft:light_blue_stained_glass_pane,minecraft:yellow_stained_glass,minecraft:yellow_stained_glass_pane,minecraft:pink_stained_glass,minecraft:pink_stained_glass_pane,minecraft:lime_stained_glass,minecraft:lime_stained_glass_pane,minecraft:gray_stained_glass,minecraft:gray_stained_glass_pane,minecraft:light_gray_stained_glass,minecraft:light_gray_stained_glass_pane,minecraft:glass_pane,minecraft:purple_stained_glass,minecraft:purple_stained_glass_pane,minecraft:green_stained_glass,minecraft:green_stained_glass_pane,minecraft:red_stained_glass,minecraft:red_stained_glass_pane", "log_family||minecraft:acacia_log,minecraft:birch_log,minecraft:cherry_log,minecraft:dark_oak_log,minecraft:jungle_log,minecraft:mangrove_log,minecraft:oak_log,minecraft:spruce_log,minecraft:warped_stem,minecraft:crimson_stem", "packed|minecraft:packed_mud,minecraft:mud_bricks|minecraft:packed_mud,minecraft:mud_bricks,minecraft:mud_brick_stairs,minecraft:mud_brick_slab,minecraft:mud_brick_wall", "planks_family|minecraft:oak_planks,minecraft:spruce_planks,minecraft:birch_planks,minecraft:jungle_planks,minecraft:acacia_planks,minecraft:dark_oak_planks,minecraft:mangrove_planks,minecraft:cherry_planks,minecraft:crimson_planks,minecraft:warped_planks|minecraft:oak_slab,minecraft:oak_stairs,minecraft:spruce_slab,minecraft:spruce_stairs,minecraft:birch_slab,minecraft:birch_stairs,minecraft:jungle_slab,minecraft:jungle_stairs,minecraft:acacia_slab,minecraft:acacia_stairs,minecraft:dark_oak_slab,minecraft:dark_oak_stairs,minecraft:mangrove_slab,minecraft:mangrove_stairs,minecraft:cherry_slab,minecraft:cherry_stairs,minecraft:crimson_slab,minecraft:crimson_stairs,minecraft:warped_slab,minecraft:warped_stairs,minecraft:oak_planks,minecraft:dark_oak_planks,minecraft:spruce_planks,minecraft:birch_planks,minecraft:jungle_planks,minecraft:acacia_planks,minecraft:mangrove_planks,minecraft:cherry_planks,minecraft:crimson_planks,minecraft:warped_planks", "red_sandstone|minecraft:cut_red_sandstone,minecraft:chiseled_red_sandstone,minecraft:red_sandstone,minecraft:smooth_red_sandstone|minecraft:red_sandstone,minecraft:smooth_red_sandstone,minecraft:chiseled_red_sandstone,minecraft:cut_red_sandstone,minecraft:cut_red_sandstone_slab,minecraft:red_sandstone_stairs,minecraft:smooth_red_sandstone_stairs,minecraft:red_sandstone_wall", "sandstone|minecraft:cut_sandstone,minecraft:chiseled_sandstone,minecraft:smooth_sandstone,minecraft:sandstone|minecraft:sandstone,minecraft:smooth_sandstone,minecraft:chiseled_sandstone,minecraft:cut_sandstone,minecraft:sandstone_stairs,minecraft:sandstone_slab,minecraft:sandstone_wall,minecraft:smooth_sandstone_slab,minecraft:smooth_sandstone_stairs,minecraft:cut_sandstone_slab", "stone_bricks|minecraft:stone_bricks,minecraft:cracked_stone_bricks,minecraft:mossy_stone_bricks,minecraft:chiseled_stone_bricks|minecraft:stone_brick_stairs,minecraft:stone_brick_slab,minecraft:stone_brick_wall,minecraft:mossy_stone_brick_stairs,minecraft:mossy_stone_brick_slab,minecraft:mossy_stone_brick_wall,minecraft:stone_bricks,minecraft:chiseled_stone_bricks,minecraft:cracked_stone_bricks,minecraft:mossy_stone_bricks", "stone_family|minecraft:stone,minecraft:calcite,minecraft:diorite,minecraft:tuff,minecraft:granite,minecraft:andesite,minecraft:polished_andesite,minecraft:polished_granite,minecraft:polished_diorite|minecraft:stone_slab,minecraft:stone_stairs,minecraft:andesite_slab,minecraft:andesite_stairs,minecraft:andesite_wall,minecraft:polished_andesite,minecraft:polished_andesite_slab,minecraft:polished_andesite_stairs,minecraft:granite_slab,minecraft:granite_stairs,minecraft:granite_wall,minecraft:polished_granite,minecraft:polished_granite_slab,minecraft:polished_granite_stairs,minecraft:diorite_slab,minecraft:diorite_stairs,minecraft:diorite_wall,minecraft:polished_diorite,minecraft:polished_diorite_slab,minecraft:polished_diorite_stairs,minecraft:stone,minecraft:tuff,minecraft:diorite,minecraft:granite,minecraft:andesite,minecraft:calcite", "terracotta||minecraft:terracotta,minecraft:white_terracotta,minecraft:orange_terracotta,minecraft:magenta_terracotta,minecraft:light_blue_terracotta,minecraft:yellow_terracotta,minecraft:lime_terracotta,minecraft:pink_terracotta,minecraft:gray_terracotta,minecraft:light_gray_terracotta,minecraft:cyan_terracotta,minecraft:purple_terracotta,minecraft:blue_terracotta,minecraft:brown_terracotta,minecraft:green_terracotta,minecraft:red_terracotta,minecraft:black_terracotta", "wool_family||minecraft:white_wool,minecraft:orange_wool,minecraft:magenta_wool,minecraft:light_blue_wool,minecraft:yellow_wool,minecraft:lime_wool,minecraft:pink_wool,minecraft:gray_wool,minecraft:light_gray_wool,minecraft:cyan_wool,minecraft:purple_wool,minecraft:blue_wool,minecraft:brown_wool,minecraft:green_wool,minecraft:red_wool,minecraft:black_wool"]
+	#专家模式 - 跳过列表
+	#专家模式下不需要的材料（默认与黑名单相同）
+	#格式: modid:block_name
+	expertModeSkipList = ["minecraft:bedrock", "minecraft:command_block", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:structure_block", "minecraft:structure_void", "minecraft:jigsaw", "simukraft:build_box", "simukraft:city_core", "simukraft:residential_control_box", "simukraft:commercial_control_box", "simukraft:industrial_control_box", "simukraft:other_control_box", "simukraft:wool_farm_control_box", "simukraft:building_material_store_control_box", "simukraft:beef_farm_control_box", "simukraft:nsuk_meat_shop_control_box", "simukraft:nsuk_farmland_box", "simukraft:fruit_shop_control_box", "simukraft:bakery_control_box", "minecraft:petrified_oak_slab", "simukraft:white_carpet"]
+
+[planning]
+	#规划师无法处理的方块黑名单（拆除/替换/填充）
+	#格式: modid:block_name
+	#默认包含基岩、命令方块、屏障等保护方块，以及本模组的所有控制盒和建筑盒
+	blockBlacklist = ["minecraft:bedrock", "minecraft:command_block", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:structure_block", "minecraft:structure_void", "minecraft:jigsaw", "simukraft:build_box", "simukraft:city_core", "simukraft:residential_control_box", "simukraft:commercial_control_box", "simukraft:industrial_control_box", "simukraft:other_control_box", "simukraft:wool_farm_control_box", "simukraft:building_material_store_control_box", "simukraft:beef_farm_control_box", "simukraft:nsuk_meat_shop_control_box", "simukraft:nsuk_farmland_box", "simukraft:fruit_shop_control_box", "simukraft:bakery_control_box"]
+	#规划师基础拆除速度（tick/方块），等级1的速度
+	#Range: 5 ~ 200
+	removeSpeedBase = 40
+	#规划师基础替换速度（tick/方块）
+	#Range: 5 ~ 200
+	replaceSpeedBase = 40
+	#规划师基础填充速度（tick/方块）
+	#Range: 5 ~ 200
+	fillSpeedBase = 40
+	#拆除方块时是否掉落物品
+	dropItemsOnRemove = true
+	#是否将拆除/替换获得的物品存入附近箱子
+	#如果关闭，物品将掉落在地上
+	storeItemsInChest = true
+	#搜索箱子的范围（格）
+	#Range: 1 ~ 20
+	chestSearchRange = 3
+	#材料不足警告的冷却时间（秒）
+	#Range: 1 ~ 300
+	warningCooldownSeconds = 20
+	#休息状态检查间隔（tick，20tick=1秒）
+	#Range: 1 ~ 200
+	restCheckInterval = 100
+	#规划师是否获得经验
+	enableXpGain = true
+	#每处理一个方块获得的经验值
+	#Range: 0 ~ 100
+	xpPerBlock = 1
+
+[construction]
+	#建筑师无法处理的方块黑名单（建造时跳过）
+	#格式: modid:block_name
+	#默认包含基岩、命令方块、屏障等保护方块，以及本模组的所有控制盒和建筑盒
+	blockBlacklist = ["minecraft:bedrock", "minecraft:command_block", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:structure_block", "minecraft:structure_void", "minecraft:jigsaw", "simukraft:build_box", "simukraft:city_core", "simukraft:residential_control_box", "simukraft:commercial_control_box", "simukraft:industrial_control_box", "simukraft:other_control_box", "simukraft:wool_farm_control_box", "simukraft:building_material_store_control_box", "simukraft:beef_farm_control_box", "simukraft:nsuk_meat_shop_control_box", "simukraft:nsuk_farmland_box", "simukraft:fruit_shop_control_box", "simukraft:bakery_control_box"]
+	#建筑师1级时的基础速度（每秒放置方块数）
+	#20级时速度为20倍（默认20级=20个方块/秒=每tick 1个）
+	#Range: 0.1 ~ 20.0
+	blocksPerSecond = 1.0
+	#建筑师搜索材料的箱子范围（格）
+	#Range: 1 ~ 20
+	chestSearchRange = 3
+	#材料不足警告的冷却时间（秒）
+	#Range: 1 ~ 300
+	warningCooldownSeconds = 20
+	#建筑师是否获得经验
+	enableXpGain = true
+	#每放置一个方块获得的经验值
+	#Range: 0 ~ 100
+	xpPerBlock = 1
+	#建筑师工作时是否强制加载周围区块
+	#关闭后建筑师可能在区块未加载时停止工作
+	forceLoadChunks = true
+	#建筑师工作时强制加载区块的半径
+	#Range: 1 ~ 5
+	chunkLoadRadius = 1
+	#建筑师等待区块加载的最大tick数
+	#重启游戏后区块可能需要时间加载，此值决定最大等待时间
+	#Range: 10 ~ 200
+	chunkLoadWaitTicks = 60
+
+[farmland]
+	#农民是否启用作物加速生长
+	#关闭后作物将以正常速度生长
+	enableCropGrowthBoost = true
+
+[integration]
+	#Whether to enable Open Parties And Claims chunk claiming integration
+	#When enabled, city chunks will be automatically claimed via OPAC using the mayor's player UUID
+	enableOpacClaims = true
+

@@ -1,0 +1,28 @@
+﻿{
+    "required":  true,
+    "minVersion":  "0.8",
+    "package":  "com.xiaoliang.simukraft.mixin",
+    "compatibilityLevel":  "JAVA_17",
+    "refmap":  "simukraft.refmap.json",
+    "mixins":  [
+
+               ],
+    "client":  [
+                   "SimukraftMixin",
+                   "MixinCamera",
+                   "MixinEntity",
+                   "MixinKeyboardHandler",
+                   "MixinBlockRenderDispatcher",
+                   "MixinAbstractContainerScreen",
+                   "MixinWorldCreationUiState",
+                   "MixinForgeHooksClient",
+                   "xaero.MixinWorldMapSession",
+                   "ldlib.MixinModularUIGuiContainer"
+               ],
+    "server":  [
+
+               ],
+    "injectors":  {
+                      "defaultRequire":  1
+                  }
+}

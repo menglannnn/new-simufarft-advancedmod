@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WTW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:purple_wool"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "simukraft:purple_light_block",
+    "count": 8
+  }
+}

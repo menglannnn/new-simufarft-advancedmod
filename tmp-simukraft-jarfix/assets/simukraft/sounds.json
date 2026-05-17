@@ -1,0 +1,293 @@
+{
+  "voice.ui_open.male": {
+    "sounds": [
+      "simukraft:voice/ui_open/male/hellom"
+    ]
+  },
+  "voice.ui_open.female": {
+    "sounds": [
+      "simukraft:voice/ui_open/female/hellof"
+    ]
+  },
+  "voice.hurt.male": {
+    "sounds": [
+      "simukraft:voice/hurt/male/ouchm"
+    ]
+  },
+  "voice.hurt.female": {
+    "sounds": [
+      "simukraft:voice/hurt/female/ouchf"
+    ]
+  },
+  "voice.arrival.male": {
+    "sounds": [
+      "simukraft:voice/chat/meeting/cspeaka",
+      "simukraft:voice/chat/meeting/cspeakb",
+      "simukraft:voice/chat/meeting/cspeakc",
+      "simukraft:voice/chat/meeting/daymone",
+      "simukraft:voice/chat/meeting/daymtwo",
+      "simukraft:voice/chat/meeting/daymthree",
+      "simukraft:voice/chat/meeting/feight",
+      "simukraft:voice/chat/meeting/fnine"
+    ]
+  },
+  "voice.arrival.female": {
+    "sounds": [
+      "simukraft:voice/chat/meeting/cspeaka",
+      "simukraft:voice/chat/meeting/cspeakb",
+      "simukraft:voice/chat/meeting/cspeakc",
+      "simukraft:voice/chat/meeting/dayfone",
+      "simukraft:voice/chat/meeting/dayftwo",
+      "simukraft:voice/chat/meeting/dayfthree",
+      "simukraft:voice/chat/meeting/feight",
+      "simukraft:voice/chat/meeting/fnine"
+    ]
+  },
+  "voice.chat.male": {
+    "sounds": [
+      "simukraft:voice/chat/shared/yiyuan_1",
+      "simukraft:voice/chat/shared/yiyuan_2",
+      "simukraft:voice/chat/shared/yiyuan_3",
+      "simukraft:voice/chat/meeting/cspeaka",
+      "simukraft:voice/chat/meeting/cspeakb",
+      "simukraft:voice/chat/meeting/cspeakc",
+      "simukraft:voice/chat/meeting/daymone",
+      "simukraft:voice/chat/meeting/daymtwo",
+      "simukraft:voice/chat/meeting/daymthree",
+      "simukraft:voice/chat/meeting/feight",
+      "simukraft:voice/chat/meeting/fnine",
+      "simukraft:voice/chat/male/mspeaka",
+      "simukraft:voice/chat/male/mspeakb",
+      "simukraft:voice/chat/male/mspeakc",
+      "simukraft:voice/chat/male/mspeakd",
+      "simukraft:voice/chat/male/mspeake",
+      "simukraft:voice/chat/male/mspeakf",
+      "simukraft:voice/chat/male/mspeakg",
+      "simukraft:voice/chat/male/mspeakh",
+      "simukraft:voice/chat/male/mspeaki",
+      "simukraft:voice/chat/male/mspeakj",
+      "simukraft:voice/chat/male/mspeakk",
+      "simukraft:voice/chat/male/mspeakl",
+      "simukraft:voice/chat/male/mspeakm",
+      "simukraft:voice/chat/male/mspeakn",
+      "simukraft:voice/chat/male/mspeako",
+      "simukraft:voice/chat/male/mspeakp",
+      "simukraft:voice/chat/male/mspeakq",
+      "simukraft:voice/chat/male/mspeakr",
+      "simukraft:voice/chat/male/mspeaks"
+    ]
+  },
+  "voice.chat.female": {
+    "sounds": [
+      "simukraft:voice/chat/shared/yiyuan_1",
+      "simukraft:voice/chat/shared/yiyuan_2",
+      "simukraft:voice/chat/shared/yiyuan_3",
+      "simukraft:voice/chat/meeting/cspeaka",
+      "simukraft:voice/chat/meeting/cspeakb",
+      "simukraft:voice/chat/meeting/cspeakc",
+      "simukraft:voice/chat/meeting/dayfone",
+      "simukraft:voice/chat/meeting/dayftwo",
+      "simukraft:voice/chat/meeting/dayfthree",
+      "simukraft:voice/chat/meeting/feight",
+      "simukraft:voice/chat/meeting/fnine",
+      "simukraft:voice/chat/female/fseven",
+      "simukraft:voice/chat/female/fspeaka",
+      "simukraft:voice/chat/female/fspeakb",
+      "simukraft:voice/chat/female/fspeakc",
+      "simukraft:voice/chat/female/fspeakd",
+      "simukraft:voice/chat/female/fspeake",
+      "simukraft:voice/chat/female/fspeakf",
+      "simukraft:voice/chat/female/fspeakg",
+      "simukraft:voice/chat/female/fspeakh",
+      "simukraft:voice/chat/female/fspeaki",
+      "simukraft:voice/chat/female/fspeakj",
+      "simukraft:voice/chat/female/fspeakk",
+      "simukraft:voice/chat/female/fspeakl",
+      "simukraft:voice/chat/female/fspeakm",
+      "simukraft:voice/chat/female/fspeakn",
+      "simukraft:voice/chat/female/fspeako",
+      "simukraft:voice/chat/female/fspeakp",
+      "simukraft:voice/chat/female/fspeakq",
+      "simukraft:voice/chat/female/fspeakr",
+      "simukraft:voice/chat/female/fspeaks",
+      "simukraft:voice/chat/female/fwxbad"
+    ]
+  },
+  "voice.night.male": {
+    "sounds": [
+      "simukraft:voice/night/male/nightmone",
+      "simukraft:voice/night/male/nightmtwo",
+      "simukraft:voice/night/male/nightmthree"
+    ]
+  },
+  "voice.night.female": {
+    "sounds": [
+      "simukraft:voice/night/female/nightfone",
+      "simukraft:voice/night/female/nightftwo",
+      "simukraft:voice/night/female/nightfthree"
+    ]
+  },
+  "voice.food.burger.male": {
+    "sounds": [
+      "simukraft:voice/food/burger/male/burgerma",
+      "simukraft:voice/food/burger/male/burgermb",
+      "simukraft:voice/food/burger/male/burgermc",
+      "simukraft:voice/food/burger/male/burgermd",
+      "simukraft:voice/food/burger/male/burgerme",
+      "simukraft:voice/food/burger/male/burgermf"
+    ]
+  },
+  "voice.food.burger.female": {
+    "sounds": [
+      "simukraft:voice/food/burger/female/burgerfa",
+      "simukraft:voice/food/burger/female/burgerfb",
+      "simukraft:voice/food/burger/female/burgerfc",
+      "simukraft:voice/food/burger/female/burgerfd",
+      "simukraft:voice/food/burger/female/burgerfe",
+      "simukraft:voice/food/burger/female/burgerff"
+    ]
+  },
+  "voice.food.bakery.male": {
+    "sounds": [
+      "simukraft:voice/food/bakery/male/bakerm",
+      "simukraft:voice/food/bakery/male/beamm"
+    ]
+  },
+  "voice.food.bakery.female": {
+    "sounds": [
+      "simukraft:voice/food/bakery/female/bakerf",
+      "simukraft:voice/food/bakery/female/beamf"
+    ]
+  },
+  "voice.birth.pregnant": {
+    "sounds": [
+      "simukraft:voice/birth/pregnant"
+    ]
+  },
+  "voice.birth.birth": {
+    "sounds": [
+      "simukraft:voice/birth/birth"
+    ]
+  },
+  "voice.builder.ready.male": {
+    "sounds": [
+      "simukraft:voice/builder/ready/male/readym"
+    ]
+  },
+  "voice.builder.ready.female": {
+    "sounds": [
+      "simukraft:voice/builder/ready/female/readyf"
+    ]
+  },
+  "voice.builder.arrival": {
+    "sounds": [
+      "simukraft:voice/builder/arrival/blarga",
+      "simukraft:voice/builder/arrival/blargb",
+      "simukraft:voice/builder/arrival/blargc",
+      "simukraft:voice/builder/arrival/blargd",
+      "simukraft:voice/builder/arrival/blarge",
+      "simukraft:voice/builder/arrival/blargf",
+      "simukraft:voice/builder/arrival/blargg",
+      "simukraft:voice/builder/arrival/blargh",
+      "simukraft:voice/builder/arrival/blargi",
+      "simukraft:voice/builder/arrival/blargj",
+      "simukraft:voice/builder/arrival/blargk",
+      "simukraft:voice/builder/arrival/blargl",
+      "simukraft:voice/builder/arrival/blargm",
+      "simukraft:voice/builder/arrival/blargn",
+      "simukraft:voice/builder/arrival/blargo",
+      "simukraft:voice/builder/arrival/blargp",
+      "simukraft:voice/builder/arrival/blargq",
+      "simukraft:voice/builder/arrival/blargr",
+      "simukraft:voice/builder/arrival/blargs",
+      "simukraft:voice/builder/arrival/blargt",
+      "simukraft:voice/builder/arrival/blargu",
+      "simukraft:voice/builder/arrival/blargv",
+      "simukraft:voice/builder/arrival/blargw",
+      "simukraft:voice/builder/arrival/blargx",
+      "simukraft:voice/builder/arrival/blargy",
+      "simukraft:voice/builder/arrival/blargz"
+    ]
+  },
+  "voice.store.open": {
+    "sounds": [
+      "simukraft:voice/store/open/meight"
+    ]
+  },
+  "voice.store.payment": {
+    "sounds": [
+      "simukraft:voice/store/payment/merchm"
+    ]
+  },
+  "voice.store.cash": {
+    "sounds": [
+      "simukraft:voice/store/payment/cashshort"
+    ]
+  },
+  "block.build_box.place": {
+    "subtitle": "simukraft.subtitle.build_box.place",
+    "sounds": [
+      "simukraft:block/build_box_place"
+    ]
+  },
+  "block.build_box.break": {
+    "subtitle": "simukraft.subtitle.build_box.break",
+    "sounds": [
+      "simukraft:block/build_box_break"
+    ]
+  },
+  "ui.build_box.open": {
+    "subtitle": "simukraft.subtitle.build_box.open",
+    "sounds": [
+      "simukraft:ui/build_box_open"
+    ]
+  },
+  "ui.city_core.open": {
+    "subtitle": "simukraft.subtitle.city_core.open",
+    "sounds": [
+      "simukraft:ui/city_core_open"
+    ]
+  },
+  "construction.complete": {
+    "subtitle": "simukraft.subtitle.construction.complete",
+    "sounds": [
+      "simukraft:construction/complete"
+    ]
+  },
+  "player.wake_up": {
+    "subtitle": "simukraft.subtitle.player.wake_up",
+    "sounds": [
+      "simukraft:player/wake_up"
+    ]
+  },
+  "money.collect": {
+    "subtitle": "simukraft.subtitle.money.collect",
+    "sounds": [
+      "simukraft:money/collect"
+    ]
+  },
+  "construction.start": {
+    "subtitle": "simukraft.subtitle.construction.start",
+    "sounds": [
+      "simukraft:construction/start"
+    ]
+  },
+  "block.farmland_box.place": {
+    "subtitle": "simukraft.subtitle.farmland_box.place",
+    "sounds": [
+      "simukraft:block/farmland_box_place"
+    ]
+  },
+  "block.farmland_box.break": {
+    "subtitle": "simukraft.subtitle.farmland_box.break",
+    "sounds": [
+      "simukraft:block/build_box_break"
+    ]
+  },
+  "music.first_dream": {
+    "subtitle": "simukraft.subtitle.music.first_dream",
+    "sounds": [
+      "simukraft:music/first_dream"
+    ]
+  }
+}

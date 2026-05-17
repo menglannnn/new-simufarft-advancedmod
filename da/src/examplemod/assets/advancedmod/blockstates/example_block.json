@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "advancedmod:block/example_block"
+    }
+  }
+}
