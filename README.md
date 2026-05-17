@@ -1,2 +1,2 @@
-## 新：模拟大都市
-#1.20.1
+# new-simufarft-advancedmod
+This mod is an addon that adds NPC dialogue functionality to the Simukarft mod
